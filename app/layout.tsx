@@ -5,7 +5,7 @@ import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Clichi SHOP Niamey - Viande Grillée Premium',
+  title: 'Kilichi SHOP Niamey - Viande Grillée Premium',
   description: 'Découvrez nos viandes grillées d\'exception à Niamey, Niger. Qualité premium, saveurs authentiques, cuisson parfaite. Commandez sur WhatsApp.',
 };
 

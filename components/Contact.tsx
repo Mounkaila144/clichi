@@ -5,7 +5,7 @@ import { MapPin, Phone, Mail, Clock } from 'lucide-react';
 const Contact = () => {
   const handleWhatsAppContact = () => {
     const message = "Bonjour! Je souhaite vous contacter pour plus d'informations.";
-    const whatsappUrl = `https://wa.me/22797977199?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/22796467233?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 
@@ -17,7 +17,7 @@ const Contact = () => {
             Contactez-nous
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Venez découvrir nos saveurs authentiques à Niamey ou contactez-nous pour vos commandes
+            Venez découvrir nos kilichi authentiques à Niamey ou contactez-nous pour vos commandes
           </p>
         </div>
 
@@ -54,7 +54,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="text-white font-semibold">Email</h4>
-                    <p className="text-gray-300">contact@grillmaster.ne</p>
+                    <p className="text-gray-300">contact@Kilichishop.ne</p>
                   </div>
                 </div>
                 

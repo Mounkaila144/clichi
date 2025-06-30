@@ -7,78 +7,78 @@ const Products = () => {
   const [activeCategory, setActiveCategory] = useState('all');
 
   const categories = [
-    { id: 'all', name: 'Tous nos produits' },
-    { id: 'steaks', name: 'Steaks' },
-    { id: 'burgers', name: 'Burgers' },
+    { id: 'all', name: 'Tous nos kilichi' },
+    { id: 'boeuf', name: 'Kilichi de Bœuf' },
+    { id: 'mouton', name: 'Kilichi de Mouton' },
     { id: 'specialites', name: 'Spécialités' }
   ];
 
   const products = [
     {
       id: 1,
-      name: 'Steak de Bœuf Premium',
-      category: 'steaks',
-      price: '14 000 CFA',
-      image: 'https://images.pexels.com/photos/361184/asparagus-steak-veal-steak-veal-361184.jpeg?auto=compress&cs=tinysrgb&w=500&h=400&fit=crop',
-      description: 'Pièce de choix grillée à la perfection, servie avec légumes de saison',
+      name: 'Kilichi de Bœuf Premium',
+      category: 'boeuf',
+      price: '8 000 CFA',
+      image: '/images/Kilichi-Niger.jpg',
+      description: 'Kilichi de bœuf traditionnel, séché selon les méthodes ancestrales du Niger',
       rating: 4.9,
-      cookTime: '15 min',
+      cookTime: 'Prêt à consommer',
       spiceLevel: 2
     },
     {
       id: 2,
-      name: 'Burger BBQ Signature',
-      category: 'burgers',
-      price: '9 000 CFA',
-      image: 'https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=500&h=400&fit=crop',
-      description: 'Burger artisanal avec viande grillée, sauce BBQ maison et cheddar affiné',
+      name: 'Kilichi de Mouton Artisanal',
+      category: 'mouton',
+      price: '9 500 CFA',
+      image: '/images/kilichi.avif',
+      description: 'Kilichi de mouton aux épices traditionnelles, saveur authentique du Niger',
       rating: 4.8,
-      cookTime: '12 min',
-      spiceLevel: 1
+      cookTime: 'Prêt à consommer',
+      spiceLevel: 3
     },
     {
       id: 3,
-      name: 'Côtes de Porc Marinées',
+      name: 'Kilichi Épicé Spécial',
       category: 'specialites',
-      price: '11 000 CFA',
-      image: 'https://images.pexels.com/photos/1435894/pexels-photo-1435894.jpeg?auto=compress&cs=tinysrgb&w=500&h=400&fit=crop',
-      description: 'Côtes de porc marinées 24h, grillées lentement au feu de bois',
+      price: '10 000 CFA',
+      image: '/images/WhatsApp Image 2025-06-30 at 20.39.06.jpeg',
+      description: 'Mélange d\'épices nigériennes pour les amateurs de saveurs intenses',
       rating: 4.7,
-      cookTime: '25 min',
-      spiceLevel: 2
+      cookTime: 'Prêt à consommer',
+      spiceLevel: 3
     },
     {
       id: 4,
-      name: 'Entrecôte Argentine',
-      category: 'steaks',
-      price: '16 000 CFA',
-      image: 'https://images.pexels.com/photos/65175/pexels-photo-65175.jpeg?auto=compress&cs=tinysrgb&w=500&h=400&fit=crop',
-      description: 'Entrecôte argentine de 300g, grillée au charbon de bois',
+      name: 'Kilichi de Bœuf Doux',
+      category: 'boeuf',
+      price: '7 500 CFA',
+      image: '/images/WhatsApp Image 2025-06-30 at 20.39.06 (1).jpeg',
+      description: 'Kilichi de bœuf aux épices douces, parfait pour toute la famille',
       rating: 5.0,
-      cookTime: '18 min',
+      cookTime: 'Prêt à consommer',
       spiceLevel: 1
     },
     {
       id: 5,
-      name: 'Brochettes Mixtes',
+      name: 'Assortiment Kilichi Mixte',
       category: 'specialites',
-      price: '10 000 CFA',
-      image: 'https://images.pexels.com/photos/1639565/pexels-photo-1639565.jpeg?auto=compress&cs=tinysrgb&w=500&h=400&fit=crop',
-      description: 'Mélange de bœuf, porc et légumes, marinés aux herbes de Provence',
+      price: '12 000 CFA',
+      image: '/images/WhatsApp Image 2025-06-30 at 20.39.06 (2).jpeg',
+      description: 'Assortiment de kilichi bœuf et mouton, idéal pour découvrir nos saveurs',
       rating: 4.6,
-      cookTime: '20 min',
-      spiceLevel: 1
+      cookTime: 'Prêt à consommer',
+      spiceLevel: 2
     },
     {
       id: 6,
-      name: 'Burger Cheese Deluxe',
-      category: 'burgers',
-      price: '8 000 CFA',
-      image: 'https://images.pexels.com/photos/1639556/pexels-photo-1639556.jpeg?auto=compress&cs=tinysrgb&w=500&h=400&fit=crop',
-      description: 'Double steak haché, double fromage, bacon croustillant',
+      name: 'Kilichi de Mouton Traditionnel',
+      category: 'mouton',
+      price: '8 500 CFA',
+      image: '/images/Kilichi-Niger.jpg',
+      description: 'Kilichi de mouton préparé selon la recette traditionnelle de nos ancêtres',
       rating: 4.8,
-      cookTime: '10 min',
-      spiceLevel: 1
+      cookTime: 'Prêt à consommer',
+      spiceLevel: 2
     }
   ];
 
@@ -88,7 +88,7 @@ const Products = () => {
 
   const handleWhatsAppOrder = (productName: string, price: string) => {
     const message = `Bonjour! Je souhaite commander: ${productName} - ${price}`;
-    const whatsappUrl = `https://wa.me/22797977199?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/22796467233?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 
@@ -119,11 +119,11 @@ const Products = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            Nos <span className="text-red-600">Spécialités</span>
+            Nos <span className="text-red-600">Kilichi</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Découvrez notre sélection de viandes grillées préparées avec passion 
-            et servies dans les règles de l'art à Niamey
+            Découvrez notre sélection de kilichi préparé avec passion selon les traditions 
+            ancestrales du Niger à Niamey
           </p>
         </div>
 

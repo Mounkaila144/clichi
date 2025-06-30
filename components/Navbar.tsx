@@ -20,7 +20,7 @@ const Navbar = () => {
 
   const handleWhatsAppOrder = () => {
     const message = "Bonjour! Je souhaite passer une commande.";
-    const whatsappUrl = `https://wa.me/22797977199?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/22796467233?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 
@@ -31,7 +31,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <Flame className="h-8 w-8 text-red-600" />
-            <span className="text-2xl font-bold text-gray-900">Clichi SHOP</span>
+            <span className="text-2xl font-bold text-gray-900">Kilichi SHOP</span>
           </div>
 
           {/* Desktop Menu */}
@@ -53,7 +53,7 @@ const Navbar = () => {
                 onClick={() => scrollToSection('produits')}
                 className="text-gray-700 hover:text-red-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200"
               >
-                Nos Produits
+                Nos Kilichi
               </button>
               <button
                 onClick={() => scrollToSection('contact')}
@@ -106,7 +106,7 @@ const Navbar = () => {
               onClick={() => scrollToSection('produits')}
               className="text-gray-700 hover:text-red-600 block px-3 py-2 rounded-md text-base font-medium w-full text-left transition-colors duration-200"
             >
-              Nos Produits
+              Nos Kilichi
             </button>
             <button
               onClick={() => scrollToSection('contact')}

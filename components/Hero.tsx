@@ -8,19 +8,19 @@ const Hero = () => {
 
   const slides = [
     {
-      image: 'https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop',
-      title: 'Viande Grillée Premium',
-      subtitle: 'Saveurs authentiques à Niamey, qualité exceptionnelle'
+      image: '/images/Kilichi-Niger.jpg',
+      title: 'Kilichi Authentique du Niger',
+      subtitle: 'Viande séchée traditionnelle, saveurs ancestrales de Niamey'
     },
     {
-      image: 'https://images.pexels.com/photos/323682/pexels-photo-323682.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop',
-      title: 'Barbecue Artisanal',
-      subtitle: 'Tradition et expertise depuis 1995'
+      image: '/images/kilichi.avif',
+      title: 'Kilichi Artisanal Premium',
+      subtitle: 'Tradition nigérienne depuis des générations'
     },
     {
-      image: 'https://images.pexels.com/photos/776314/pexels-photo-776314.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop',
-      title: 'Steaks de Choix',
-      subtitle: 'Sélection rigoureuse, cuisson parfaite'
+      image: '/images/WhatsApp Image 2025-06-30 at 20.39.06.jpeg',
+      title: 'Kilichi de Qualité Supérieure',
+      subtitle: 'Sélection rigoureuse, préparation traditionnelle'
     }
   ];
 
@@ -34,7 +34,7 @@ const Hero = () => {
 
   const handleWhatsAppContact = () => {
     const message = "Bonjour! Je souhaite en savoir plus sur vos produits.";
-    const whatsappUrl = `https://wa.me/22797977199?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/22796467233?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 
@@ -80,7 +80,7 @@ const Hero = () => {
               onClick={scrollToProducts}
               className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105 flex items-center"
             >
-              Découvrir nos produits
+              Découvrir nos kilichi
               <ChevronRight className="ml-2 h-5 w-5" />
             </button>
             <button 

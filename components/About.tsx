@@ -9,36 +9,36 @@ const About = () => {
           <div className="space-y-8">
             <div>
               <h2 className="text-4xl font-bold text-gray-900 mb-4">
-                L'Art du Grill
-                <span className="text-red-600"> à Niamey depuis 1995</span>
+                L'Art du Kilichi
+                <span className="text-red-600"> à Niamey depuis des générations</span>
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Chez Clichi SHOP Niamey, nous perpétuons la tradition de la cuisson au grill avec passion et expertise. 
-                Chaque pièce de viande est sélectionnée avec soin et grillée à la perfection pour révéler 
-                tous ses arômes naturels dans le cœur du Niger.
+                Chez Kilichi SHOP Niamey, nous perpétuons la tradition ancestrale du kilichi avec passion et expertise. 
+                Chaque pièce de viande est sélectionnée avec soin et séchée selon les méthodes traditionnelles 
+                pour préserver tous ses arômes naturels dans le cœur du Niger.
               </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="text-center p-6 bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <ChefHat className="h-12 w-12 text-red-600 mx-auto mb-4" />
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">Expertise</h3>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">Savoir-faire</h3>
                 <p className="text-sm text-gray-600">
-                  Plus de 25 ans d'expérience dans l'art du grill à Niamey
+                  Techniques traditionnelles de préparation du kilichi transmises de génération en génération
                 </p>
               </div>
               <div className="text-center p-6 bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <Shield className="h-12 w-12 text-red-600 mx-auto mb-4" />
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">Qualité</h3>
                 <p className="text-sm text-gray-600">
-                  Viandes sélectionnées chez les meilleurs éleveurs du Niger
+                  Viandes sélectionnées chez les meilleurs éleveurs du Niger pour un kilichi d'exception
                 </p>
               </div>
               <div className="text-center p-6 bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <Leaf className="h-12 w-12 text-red-600 mx-auto mb-4" />
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">Natural</h3>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">100% Naturel</h3>
                 <p className="text-sm text-gray-600">
-                  Produits naturels sans additifs ni conservateurs
+                  Kilichi naturel sans additifs ni conservateurs, selon la tradition nigérienne
                 </p>
               </div>
             </div>
@@ -46,9 +46,9 @@ const About = () => {
             <div className="bg-red-50 p-6 rounded-xl border-l-4 border-red-600">
               <h3 className="text-xl font-semibold text-gray-900 mb-2">Notre Mission</h3>
               <p className="text-gray-700">
-                Offrir à nos clients de Niamey une expérience culinaire exceptionnelle en alliant tradition, 
-                innovation et respect du produit. Chaque bouchée raconte une histoire de passion 
-                et de savoir-faire artisanal nigérien.
+                Offrir à nos clients de Niamey et du monde entier un kilichi d'exception en préservant 
+                les traditions ancestrales du Niger. Chaque bouchée raconte une histoire de culture 
+                et de savoir-faire artisanal nigérien authentique.
               </p>
             </div>
           </div>
@@ -57,8 +57,8 @@ const About = () => {
           <div className="relative">
             <div className="aspect-w-4 aspect-h-5 rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="https://images.pexels.com/photos/5639413/pexels-photo-5639413.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&fit=crop"
-                alt="Chef grillant de la viande"
+                src="/images/WhatsApp Image 2025-06-30 at 20.39.06 (1).jpeg"
+                alt="Préparation traditionnelle du kilichi"
                 className="w-full h-full object-cover"
               />
             </div>
